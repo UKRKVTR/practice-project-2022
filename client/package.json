@@ -24,7 +24,7 @@
     "react-rating": "^2.0.5",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-spinners": "^0.10.6",
     "react-toastify": "^7.0.4",
     "redux": "^4.1.0",
@@ -42,7 +42,9 @@
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app/jest"
+    ]
   },
   "browserslist": [
     ">0.2%",
@@ -53,6 +55,7 @@
   "devDependencies": {
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
+    "prettier-standard": "^16.4.1",
     "sass": "^1.54.9"
   }
 }
